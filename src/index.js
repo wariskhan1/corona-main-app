@@ -16,10 +16,12 @@ import CustomCalender from "./pages/dashboard/CustomCalender";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import Token from "./pages/Token";
 // import "./assets/css/"
+// const clientId="242626251664-pg5lmetaaaqreh3pddstjs3q1239nqnp.apps.googleusercontent.com"
+const clientId="876374088565-buk99n9v1ajd3hk56504d0eir5m89gcg.apps.googleusercontent.com"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <GoogleOAuthProvider clientId="242626251664-pg5lmetaaaqreh3pddstjs3q1239nqnp.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId={clientId} scope= "coronaapp458@gmail.com">
     <BrowserRouter>
       <Switch>
         <Layout>

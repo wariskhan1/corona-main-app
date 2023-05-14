@@ -1,7 +1,9 @@
 // export var BASE_URL = "https://myrizq-backend.onrender.com";
-export var BASE_URL = "http://localhost:3001";
-// export var BASE_URL = "https://corona-backend-agfd.onrender.com";
-export var GOOGLE_CLIENT_ID = "242626251664-pg5lmetaaaqreh3pddstjs3q1239nqnp.apps.googleusercontent.com";
+// export var BASE_URL = "http://localhost:3001";
+export var BASE_URL = "https://corona-backend-main.vercel.app";
+// export var GOOGLE_CLIENT_ID = "876374088565-buk99n9v1ajd3hk56504d0eir5m89gcg.apps.googleusercontent.com";
+export var GOOGLE_CLIENT_ID = "242626251664-pg5lmetaaaqreh3pddstjs3q1239nqnp.apps.googleusercontent.com"
+
 export var ERROR_IMAGE = "https://i.ibb.co/ZcyDnfq/dizzy-robot.png";
 
 export var Data = {
